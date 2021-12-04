@@ -1,0 +1,115 @@
+//GLOBAL
+$font-dark: black;
+$font-light: gray;
+$font-logo: "Meow Script", cursive;
+$font-color-menu: #fff;
+
+.main-header {
+  color: gold;
+  font-size: 26px;
+  margin: auto auto;
+  font-family: $font-logo;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: $font-light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $font-dark;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+section {
+  margin: 120px 0;
+}
+
+// MAIN CSS
+
+nav {
+  margin: 10px;
+  display: flex;
+
+  .nav-bar {
+    margin: auto auto;
+  }
+
+  ul {
+    display: row;
+    display: flex;
+    li {
+      direction: row;
+      margin: 0 10px;
+      padding: 0 10px;
+      a {
+        font-family: "Montserrat";
+        font-weight: normal;
+        font-size: 14px;
+        color: $font-color-menu;
+      }
+    }
+  }
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/Background Image.png");
+  height: 670px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.splash {
+  margin-top: 200px;
+  height: 400px;
+  .inner-splash {
+    .subtitle {
+      font-size: 40px;
+      color: $font-color-menu;
+      font-family: "Droid Serif";
+      font-weight: normal;
+    }
+    .title {
+      font-size: 75px;
+      color: $font-color-menu;
+      font-family: "Montserrat";
+      font-weight: bold;
+    }
+
+    .btn-main {
+      display: inline-block;
+      margin-top: 30px;
+      color: $font-color-menu;
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: bold;
+      background-color: gold;
+      padding: 20px 60px;
+    }
+  }
+}

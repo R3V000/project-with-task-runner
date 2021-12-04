@@ -1,2 +1,110 @@
+.main-header {
+  color: gold;
+  font-size: 26px;
+  margin: auto auto;
+  font-family: "Meow Script", cursive;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: gray;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin: 120px 0;
+}
+
+nav {
+  margin: 10px;
+  display: flex;
+}
+
+nav .nav-bar {
+  margin: auto auto;
+}
+
+nav ul {
+  display: row;
+  display: flex;
+}
+
+nav ul li {
+  direction: row;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+nav ul li a {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  color: #fff;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/Background Image.png");
+  height: 670px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.splash {
+  margin-top: 200px;
+  height: 400px;
+}
+
+.splash .inner-splash .subtitle {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Droid Serif";
+  font-weight: normal;
+}
+
+.splash .inner-splash .title {
+  font-size: 75px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.splash .inner-splash .btn-main {
+  display: inline-block;
+  margin-top: 30px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: bold;
+  background-color: gold;
+  padding: 20px 60px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNQTtFQUNFLFdBQVc7RUFDWCxlQUFlO0VBQ2YsaUJBQWlCO0VBQ2pCLG1DQVBnQztBQ0VsQzs7QURRQTtFQUNFLGVBQWU7RUFDZixpQkFBaUI7QUNMbkI7O0FEUUE7RUFDRSxlQUFlO0VBQ2YsV0FsQmU7QUNhakI7O0FEUUE7RUFDRSxTQUFTO0VBQ1QsVUFBVTtFQUNWLFlBekJlO0VBMEJmLGtCQUFrQjtBQ0xwQjs7QURRQTs7Ozs7O0VBTUUsU0FBUztFQUNULFVBQVU7QUNMWjs7QURRQTtFQUNFLHFCQUFxQjtBQ0x2Qjs7QURPQTtFQUNFLHFCQUFxQjtBQ0p2Qjs7QURPQTtFQUNFLGVBQWU7QUNKakI7O0FEU0E7RUFDRSxZQUFZO0VBQ1osYUFBYTtBQ05mOztBRElBO0VBS0ksaUJBQWlCO0FDTHJCOztBREFBO0VBU0ksWUFBWTtFQUNaLGFBQWE7QUNMakI7O0FETEE7RUFZTSxjQUFjO0VBQ2QsY0FBYztFQUNkLGVBQWU7QUNIckI7O0FEWEE7RUFnQlEseUJBQXlCO0VBQ3pCLG1CQUFtQjtFQUNuQixlQUFlO0VBQ2YsV0FwRWM7QUNtRXRCOztBRE9BO0VBQ0UsOEdBQ3FDO0VBQ3JDLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsNEJBQTRCO0FDTDlCOztBRFFBO0VBQ0UsaUJBQWlCO0VBQ2pCLGFBQWE7QUNMZjs7QURHQTtFQUtNLGVBQWU7RUFDZixXQXhGZ0I7RUF5RmhCLDBCQUEwQjtFQUMxQixtQkFBbUI7QUNKekI7O0FESkE7RUFXTSxlQUFlO0VBQ2YsV0E5RmdCO0VBK0ZoQix5QkFBeUI7RUFDekIsaUJBQWlCO0FDSHZCOztBRFhBO0VBa0JNLHFCQUFxQjtFQUNyQixnQkFBZ0I7RUFDaEIsV0F0R2dCO0VBdUdoQix5QkFBeUI7RUFDekIsZUFBZTtFQUNmLGlCQUFpQjtFQUNqQixzQkFBc0I7RUFDdEIsa0JBQWtCO0FDSHhCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
