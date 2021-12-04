@@ -199,7 +199,7 @@ nav {
     .gallery {
       display: flex;
       .card {
-        width: 33.3333%;
+        width: 100%;
         padding: 10px;
         .card-title {
           margin-top: 10px;
@@ -264,9 +264,8 @@ footer {
     .container {
       .gallery {
         display: inline-block;
-
         .card {
-          width: 50%;
+          width: 100%;
         }
       }
     }
