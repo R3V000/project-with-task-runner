@@ -99,11 +99,10 @@ section {
 }
 
 //============================================================================================================================================================================================
-
 // NAVBAR section
 
 nav {
-  margin: 20px;
+  margin: 0px;
   display: flex;
 
   .nav-bar {
@@ -127,18 +126,19 @@ nav {
   }
 }
 
-body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/Background Image.png");
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 //SPLASH SECTION
 .splash {
-  margin: 300px 0 400px 0;
+  position: relative;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/Background Image.png");
+  background-size: cover;
+  height: 100vh;
   .inner-splash {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     .subtitle {
       font-size: 40px;
       color: $font-color-menu;
@@ -146,7 +146,7 @@ body {
       font-weight: normal;
     }
     .title {
-      font-size: 75px;
+      font-size: 60px;
       color: $font-color-menu;
       font-family: $font-montserrat;
       font-weight: bold;
@@ -176,7 +176,7 @@ body {
 //SERVICES SECTION
 
 .services {
-  margin: auto auto;
+  margin: 120px auto;
   width: 70%;
   .container {
     .gallery {
@@ -237,6 +237,63 @@ footer {
         img {
           margin-top: -15px;
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .splash {
+    height: 70vh;
+    .inner-splash {
+      .subtitle {
+        font-size: 30px;
+      }
+      .title {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .services {
+    margin: 60px auto;
+  }
+
+  .portfolio {
+    margin: 60px auto;
+    .container {
+      .gallery {
+        display: inline-block;
+
+        .card {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  footer {
+    .container {
+      flex-direction: column;
+      margin-left: 0;
+      .footer-elements {
+        margin-left: 0;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .splash {
+    .inner-splash {
+      .subtitle {
+        font-size: 24px;
+      }
+      .title {
+        font-size: 32px;
       }
     }
   }
