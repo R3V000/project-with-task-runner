@@ -41,11 +41,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .main-header {
-  color: gold;
   font-size: 26px;
   margin: auto auto;
   font-family: $font-logo;
+  color: gold;
+  text-decoration: none;
 }
 section {
   margin: 120px 0;
@@ -156,6 +161,14 @@ body {
       font-weight: bold;
       background-color: gold;
       padding: 20px 60px;
+      transition: 0.3s;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    .btn-main:hover {
+      filter: brightness(80%);
     }
   }
 }
@@ -212,6 +225,10 @@ footer {
       font-family: $font-montserrat;
       font-size: 14px;
       color: $color-darker;
+      a {
+        color: $color-darker;
+        text-decoration: none;
+      }
     }
 
     .footer-elements {
