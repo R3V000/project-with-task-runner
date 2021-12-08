@@ -198,9 +198,13 @@ nav {
 }
 
 //PORTFOLIO SECTION
+.wrapper {
+  background-color: #faf0e6;
+}
 
 .portfolio {
-  margin: 120px auto;
+  margin: 0 auto;
+  padding: 120px 0;
   width: 70%;
   .container {
     .gallery {
@@ -208,14 +212,18 @@ nav {
 
       flex-wrap: wrap;
       justify-content: space-around;
+
       .card {
         padding: 20px;
         .card-title {
-          margin-top: 10px;
+          background-color: #fff;
+          padding-top: 10px;
           padding-bottom: 0;
         }
         .card-subtitle {
+          background-color: #fff;
           padding: 0;
+          padding-bottom: 20px;
         }
       }
     }
